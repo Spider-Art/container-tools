@@ -8,7 +8,7 @@ USER 0
 USER 1001
 
 # Let the assemble script install the dependencies
-RUN /usr/libexec/s2i/assemble
+#RUN /usr/libexec/s2i/assemble
 
 # The run script uses standard ways to run the application
 CMD /usr/libexec/s2i/run
